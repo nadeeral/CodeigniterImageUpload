@@ -1,22 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>User Registration</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://localhost/CI/assets/bootstrap/css/bootstrap.min.css">
-	
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="http://localhost/CI/assets/bootstrap/css/bootstrap-theme.min.css">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="http://localhost/CI/assets/bootstrap/js/bootstrap.min.js"></script>
-</head>
+<?php $this->load->view('layouts/header');?>
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<h2>User Registration</h2>
+				<h2>Add User</h2>
 				<?php if(isset($smsg)){ echo '<div class="alert alert-success" role="alert">'.$smsg.'</div>';}?>
 				<?php if(isset($fmsg)){ echo '<div class="alert alert-danger" role="alert">'.$fmsg.'</div>';}?>
 			</div>
